@@ -14,6 +14,9 @@ public class calculatorTest {
 	
 	@Test
 	public void addTwoNumbers() {
+		assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers() {
 		assertEquals(20, calc.add(10, 10));
 		
 	}
