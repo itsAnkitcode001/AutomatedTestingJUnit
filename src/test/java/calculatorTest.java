@@ -13,8 +13,6 @@ public class calculatorTest {
 	}
 	
 	@Test
-	public void addTwoNumbers0() {assertEquals(20, calc.add(10, 10));}
-	@Test
 	public void addTwoNumbers1() {assertEquals(20, calc.add(10, 10));}
 	@Test
 	public void addTwoNumbers2() {assertEquals(20, calc.add(10, 10));}
