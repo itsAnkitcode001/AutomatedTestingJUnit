@@ -13,16 +13,35 @@ public class calculatorTest {
 	}
 	
 	@Test
-	public void addTwoNumbers() {
-		assertEquals(20, calc.add(10, 10));}
+	public void addTwoNumbers() {assertEquals(20, calc.add(10, 10));}
 	@Test
-	public void addTwoNumbers() {
-		assertEquals(20, calc.add(10, 10));
-		
-	}
+	public void addTwoNumbers1() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers2() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers3() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers4() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers5() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers6() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers7() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers8() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers9() {assertEquals(20, calc.add(10, 10));}
+	@Test
+	public void addTwoNumbers10() {assertEquals(20, calc.add(10, 10));}
 
 	@Test
 	public void addThreeNumbers() {
+		assertEquals(20, calc.add(5, 5, 10));
+		
+	}
+	@Test
+	public void addThreeNumbers1() {
 		assertEquals(20, calc.add(5, 5, 10));
 		
 	}
